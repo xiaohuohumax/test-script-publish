@@ -1,7 +1,7 @@
 {
   "name": "test-script-publish",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": true,
   "packageManager": "pnpm@9.0.4",
   "description": "test script publish",
