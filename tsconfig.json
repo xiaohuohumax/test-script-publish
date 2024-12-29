@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "types": [
+      "vite/client",
+      "vite-plugin-monkey/client"
+    ]
+  },
+  "include": [
+    "src",
+    "types"
+  ]
+}
