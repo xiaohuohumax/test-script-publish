@@ -1,5 +1,11 @@
 # test-script-publish
 
+## 1.0.5
+
+### Patch Changes
+
+- [`ca3776e`](https://github.com/xiaohuohumax/test-script-publish/commit/ca3776e5d5cb3da5e2d023ba663923c4314d6546) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - test
+
 ## 1.0.4
 
 ### Patch Changes
