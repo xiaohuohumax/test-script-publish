@@ -1,5 +1,11 @@
 # test-script-publish
 
+## 1.0.2
+
+### Patch Changes
+
+- [`5f2c090`](https://github.com/xiaohuohumax/test-script-publish/commit/5f2c090aa98c5042e37f279b216b0c913f605a35) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - 再次发布
+
 ## 1.0.1
 
 ### Patch Changes
