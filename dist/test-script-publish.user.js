@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         test-script-publish
 // @namespace    vite-plugin-monkey
-// @version      1.0.0
+// @version      1.0.8
 // @author       xiaohuohumax
 // @description  test script publish
 // @license      MIT
@@ -9,6 +9,7 @@
 // @source       https://github.com/xiaohuohumax/template.git
 // @include      *
 // @grant        GM_log
+// @noframes
 // ==/UserScript==
 
 (function () {
@@ -18,8 +19,6 @@
   async function start() {
     _GM_log("test-script-publish");
   }
-  if (window === top) {
-    start().catch(_GM_log);
-  }
+  start().catch(_GM_log);
 
 })();
