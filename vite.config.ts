@@ -15,6 +15,7 @@ export default defineConfig({
       userscript: {
         icon64: svgToBase64('./logo.svg'),
         include: ['*'],
+        noframes: true,
       },
     }),
   ],
