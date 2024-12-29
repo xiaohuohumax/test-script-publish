@@ -25,6 +25,7 @@
     "commit": "git add . && cz",
     "postinstall": "simple-git-hooks",
     "changeset": "changeset",
+    "release": "changeset tag",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },

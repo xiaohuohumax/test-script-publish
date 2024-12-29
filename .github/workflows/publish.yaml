@@ -33,7 +33,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: pnpm changeset tag
+          publish: pnpm release
           commit: 'chore: :rewind: release version'
           title: 'chore: release version'
         env:
