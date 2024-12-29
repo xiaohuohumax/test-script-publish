@@ -1,5 +1,11 @@
 # test-script-publish
 
+## 1.0.4
+
+### Patch Changes
+
+- [`9f6c77d`](https://github.com/xiaohuohumax/test-script-publish/commit/9f6c77db2f53a11ddd0a97151a94f34c57b7bb38) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - test
+
 ## 1.0.3
 
 ### Patch Changes
