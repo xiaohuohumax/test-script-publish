@@ -34,5 +34,7 @@ jobs:
         uses: changesets/action@v1
         with:
           publish: npx changeset tag
+          commit: 'chore: :rewind: release version'
+          title: 'chore: release version'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
