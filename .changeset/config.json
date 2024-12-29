@@ -14,5 +14,6 @@
   "baseBranch": "main",
   "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
     "updateInternalDependents": "always"
-  }
+  },
+  "privatePackages": { "version": true, "tag": true }
 }
