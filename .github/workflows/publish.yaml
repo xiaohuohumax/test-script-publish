@@ -33,6 +33,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
+          createGithubReleases: true
+          publish: npx changeset tag
           commit: 'chore: :rewind: release version'
           title: 'chore: release version'
         env:
