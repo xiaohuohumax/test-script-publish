@@ -33,9 +33,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          createGithubReleases: true
-          publish: npx changeset tag
-          commit: 'chore: :rewind: release version'
-          title: 'chore: release version'
+          publish: npx @changesets/cli tag
+          commit: ' release: :rocket: release version'
+          title: ' release: release version'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
