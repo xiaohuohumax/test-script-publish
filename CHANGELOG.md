@@ -1,5 +1,11 @@
 # test-script-publish
 
+## 1.0.3
+
+### Patch Changes
+
+- [`b9c1fda`](https://github.com/xiaohuohumax/test-script-publish/commit/b9c1fdac303db7045f97764f52fd3c66008470e0) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - 尝试创建 tag
+
 ## 1.0.2
 
 ### Patch Changes
