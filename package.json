@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "ci:publish": "npx @changesets/cli tag && pnpm build",
+    "ci:publish": "pnpm build && npx @changesets/cli tag",
     "commit": "git add . && cz",
     "postinstall": "simple-git-hooks",
     "changeset": "changeset",
