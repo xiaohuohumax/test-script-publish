@@ -33,7 +33,7 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: pnpm build && npx @changesets/cli tag
+          publish: pnpm ci:publish
           commit: ' release: :rocket: release version'
           title: ' release: release version'
         env:
