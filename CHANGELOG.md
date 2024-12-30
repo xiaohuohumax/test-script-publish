@@ -1,5 +1,11 @@
 # test-script-publish
 
+## 1.0.12
+
+### Patch Changes
+
+- [`409516e`](https://github.com/xiaohuohumax/test-script-publish/commit/409516e38852285c40d50221a64a0293a7088cb9) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - asdada
+
 ## 1.0.11
 
 ### Patch Changes
