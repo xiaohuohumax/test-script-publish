@@ -1,5 +1,11 @@
 # test-script-publish
 
+## 1.0.11
+
+### Patch Changes
+
+- [`d4f3706`](https://github.com/xiaohuohumax/test-script-publish/commit/d4f370679c54cb2247c177abd3b2a9ad3849530c) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - asda
+
 ## 1.0.10
 
 ### Patch Changes
