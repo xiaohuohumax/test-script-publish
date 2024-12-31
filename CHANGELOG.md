@@ -1,5 +1,11 @@
 # test-script-publish
 
+## 1.0.13
+
+### Patch Changes
+
+- [`a81832c`](https://github.com/xiaohuohumax/test-script-publish/commit/a81832c608ae9d06b7f886d0def629a16e565241) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - kk
+
 ## 1.0.12
 
 ### Patch Changes
