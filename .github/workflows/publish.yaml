@@ -31,19 +31,18 @@ jobs:
           pnpm install --frozen-lockfile
           pnpm build
 
-      - name: Push user.js
+      - name: Push UserScript
         uses: stefanzweifel/git-auto-commit-action@v5
         id: auto-commit-action
         with:
-          commit_message: 'release: :rocket: release version'
+          commit_message: 'build: :package: build user script'
           file_pattern: dist
-          branch: user.js
 
       - name: Create Release And Tag
         uses: changesets/action@v1
         with:
           publish: npx @changesets/cli tag
-          commit: 'release: :rocket: release version2'
+          commit: 'release: :rocket: release version'
           title: 'release: release version'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
