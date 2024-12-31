@@ -37,6 +37,7 @@ jobs:
         with:
           commit_message: 'release: :rocket: release version'
           file_pattern: dist
+          branch: user.js
 
       - name: Create Release And Tag
         uses: changesets/action@v1
