@@ -1,5 +1,11 @@
 # test-script-publish
 
+## 1.0.16
+
+### Patch Changes
+
+- [`2003cdc`](https://github.com/xiaohuohumax/test-script-publish/commit/2003cdc27be8f24123b50179b757fc54bb426f60) Thanks [@xiaohuohumax](https://github.com/xiaohuohumax)! - 1111
+
 ## 1.0.15
 
 ### Patch Changes
