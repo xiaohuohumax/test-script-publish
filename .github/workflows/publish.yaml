@@ -27,14 +27,13 @@ jobs:
           cache: pnpm
 
       - name: Install
-        run: pnpm install --frozen-lockfile
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm build
 
-      - name: Create Release Pull Request
-        id: changesets
-        uses: changesets/action@v1
+      - name: Commit and push schema changes
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          publish: pnpm ci:publish
-          commit: ' release: :rocket: release version'
-          title: ' release: release version'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: Update dist
+          file_pattern: dist
+          branch: user.js
