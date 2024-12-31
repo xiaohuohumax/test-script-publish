@@ -31,9 +31,18 @@ jobs:
           pnpm install --frozen-lockfile
           pnpm build
 
-      - name: Commit and push schema changes
+      - name: Push user.js
         uses: stefanzweifel/git-auto-commit-action@v5
+        id: auto-commit-action
         with:
           commit_message: Update dist
           file_pattern: dist
-          branch: user.js
+
+      - name: Update release assets
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          omitBodyDuringUpdate: true
+          artifacts: 'dist/*'
+          name: 'script ${{ github.ref_name }}'
