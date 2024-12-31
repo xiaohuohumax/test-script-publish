@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         test-script-publish
 // @namespace    vite-plugin-monkey
-// @version      1.0.17
+// @version      1.0.18
 // @author       xiaohuohumax
 // @description  test script publish
 // @license      MIT
